@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: phishing-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn phishing_api.wsgi:application
+    plan: free

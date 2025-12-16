@@ -1,0 +1,9 @@
+django==3.2.25
+djangorestframework==3.13.1
+gunicorn
+scikit-learn
+pandas
+numpy
+joblib
+requests
+
